@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     margin: auto;
     text-align: center;
+    background-color: rgb(255, 170, 0);
 }
 
 main{
@@ -30,6 +31,7 @@ form{
     flex-wrap: wrap;
     gap: 3rem;
     text-align: left;
+
 }
  .kutu{
     margin: 10px 0;
@@ -86,7 +88,7 @@ form{
 .box{
     flex-direction: column;
     width: 400px;
-    height: 550px;
+    height: 570px;
     padding: 0.5rem;
     display: flex;
     gap: 1rem;
@@ -128,11 +130,24 @@ form{
     border: 1px solid rgb(150, 136, 136);
 }  
 
+.baslık{
+    background-color: rgb(43, 91, 70);
+    border-radius: 20px;
+    padding: 1rem;
+    color: burlywood;
+}
+h1{
+    font-size: 50px;
+    color: rgb(43, 91, 70);
+
+}
+
 h2{
-    font-size: 18px;
+    font-size: 20px;
 }
 form h1{
-    font-size: 18px;
+    font-size: 25px;
+
 }
 
 .fiyat{
@@ -163,12 +178,16 @@ span{
 #btn{
     padding: 1rem 1rem;
     border-radius: 15px;
-    background-color: orange;
-    color: white;
+    background-color: rgb(43, 91, 70);
+    color: burlywood;
     border: transparent;
     font-size: 1rem;
     font-weight: 600;
     margin-top: 3rem;
+}
+#btn:hover{
+    background-color: white;
+    color: orange;
 }
 
 button{
