@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <main>
+        <!-- sol start checkout list ---->
+        <form id="myform">
+            <div class="ust">
+                <h1>Contact Information</h1>
+                <div class="kutu">
+                    <i class="fa-solid fa-envelope"></i>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Enter your email..." >
+                </div>
+                <div class="kutu">
+                    <i class="fa-solid fa-phone"></i>
+                    <label for="phone">Phone</label>
+                    <input type="number" name="phone" placeholder="Enter your Phone...">
+                </div>
+            </div>
+            <div class="alt">
+                <h1>Shipping address</h1>
+                <div class="kutu">
+                    <i class="fa-solid fa-user"></i>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" placeholder="Enter your Full name...">
+                </div>
+                <div class="kutu">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <label for="adres">Address</label>
+                    <input type="text" name="adres" placeholder="Enter your address...">
+                </div>
+                <div class="kutu">
+                    <i class="fa-solid fa-city"></i>
+                    <label for="city">City</label>
+                    <input type="text" name="city" placeholder="Enter your city...">
+                </div>
+                <div class="kutu ulke">
+                    <i class="fa-solid fa-earth-europe"></i>
+                    <label for="">Country</label>
+                    <select name="country" id="">
+                        <option value="Turkey">Turkey</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="United States">U.S.A</option>
+                    </select>
+                </div>
+                <div class="kutu posta">
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <label for="">Post Code</label>
+                    <input type="number" name="post code" placeholder="Enter your postal code...">
+                </div>
+                <div class="kutu checkbox">
+                    <input type="checkbox" name="onay" id="x">
+                    <label for="x">See this information next time</label>
+                </div>
+            </div>
+        </form>
+        <!--  sol end  checkout list-->
+
+        
+
+
+
+    </main>
+</body>
+</html>
