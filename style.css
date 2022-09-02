@@ -81,3 +81,49 @@ form{
     width: 68%;
   }
 
+/******  BOX -*******/
+
+.box{
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    background-color: #eeeeee;
+    border-radius: 15px;
+}
+
+.box .resim{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    width: 100%;
+}
+
+.box .resim .yan{
+    padding: 10px 0 ;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+}
+
+.box .resim .yan .üst p {
+    margin-top: 0.4rem;
+    text-align: left;
+  }
+
+  
+.box .resim .yan .alt {
+    display: flex;
+    gap: 1rem;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 136, 136);
+}  
