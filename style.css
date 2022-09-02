@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    gap: 2rem;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+/***  FORM ***/
+
+form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+    text-align: left;
+}
+ .kutu{
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    position: relative;
+ }
+
+ form i{
+    position: absolute;
+    bottom: 0.6rem;
+    left: 0.5rem;
+    color: rgb(117, 111, 111);
+ }
+
+ form .alt{
+    width: 100%;
+ }
+
+ label{
+    width: 90%;
+ }
+
+ input:not(#x){
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+    border: 1px solid rgb(161, 158, 158);
+
+ }
+
+ select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+  }
+  
+  .ulke {
+    display: inline-block;
+    width: 30%;
+  }
+  .posta {
+    display: inline-block;
+    width: 68%;
+  }
+
