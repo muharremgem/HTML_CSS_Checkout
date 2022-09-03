@@ -8,7 +8,7 @@ Project aims to create Checkout within html and css.
 
   Project Name       |Libraries and Technologies I use     |How does my project look   
 :-------------------------|-------------------------|-------------------------
-[Checkout](https://muharremgem.github.io/HTML_CSS_Checkout/)| Html Css  |![Checkout](./images/checkout.gif)
+[Checkout](https://muharremgem.github.io/HTML_CSS_Checkout/)| Html Css  |![Checkout](./img/checkout.gif)
 
 
 ## Problem Statement
